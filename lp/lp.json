@@ -1,0 +1,94 @@
+{
+  "fair_value": {
+    "1": [
+      {
+        "type": "header_block"
+      },
+      {
+        "type": "title_block"
+      },
+      {
+        "type": "slider_block",
+        "sliders": [
+          {
+            "image_url": "https://.....",
+            "title": "...."
+          }
+        ]
+      }
+    ],
+    "default": [
+      {
+        "type": "header_block",
+        "id": "dynamicLP.headerBlock1"
+      },
+      {
+        "type": "title_block",
+        "id_title": "dynamicLP.titleBlock1",
+        "id_subtitle": "dynamicLP.subtitleBlock1"
+      },
+      {
+        "type": "title_block",
+        "id_title": "dynamicLP.titleBlock2",
+        "id_subtitle": "dynamicLP.subtitleBlock2"
+      },
+      {
+        "type": "slider_block",
+        "sliders": [
+          {
+            "image_url": "https://i.guim.co.uk/img/media/970693bed2f4b528b540e11333dc1517e10ccd5e/0_113_5149_3091/master/5149.jpg?width=620&quality=45&dpr=2&s=none",
+            "title": "...."
+          },
+          {
+            "image_url": "https://www.fairobserver.com/wp-content/uploads/2021/07/India-news-8.jpg",
+            "title": "Title 1"
+          },
+          {
+            "image_url": "https://www.fairobserver.com/wp-content/uploads/2022/10/shutterstock_2162765769.jpg",
+            "title": "Title 2"
+          },
+          {
+            "image_url": "https://images.livemint.com/img/2022/08/25/600x338/stats_1552921414402_1661424480744_1661424480744.jpg",
+            "title": "...."
+          }
+        ]
+      }
+    ]
+  },
+  "rtq": {
+    "1": [
+      {
+        "type": "header_block"
+      },
+      {
+        "type": "title_block"
+      },
+      {
+        "type": "slider_block",
+        "sliders": [
+          {
+            "image_url": "https://.....",
+            "title": "...."
+          }
+        ]
+      }
+    ],
+    "default": [
+      {
+        "type": "header_block"
+      },
+      {
+        "type": "title_block"
+      },
+      {
+        "type": "slider_block",
+        "sliders": [
+          {
+            "image_url": "https://.....",
+            "title": "...."
+          }
+        ]
+      }
+    ]
+  }
+}

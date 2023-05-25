@@ -1,0 +1,272 @@
+{
+  "whatsNewBanner": {
+    "titleText": {
+      "type": "text",
+      "style": {
+        "default": "h_17_med"
+      },
+      "lm_color": {
+        "default": "#ffffff"
+      },
+      "dm_color": {
+        "default": "#ffffff"
+      },
+      "define": {
+        "default": "Product Updates"
+      },
+      "visible": {
+        "default": true,
+        "5": false
+      }
+    },
+    "mainBg": {
+      "type": "box",
+      "image_url": {
+        "default": null,
+        "7": "https://raw.githubusercontent.com/devapro/test-json/main/images/bg_1.png"
+      },
+      "scale_type": {
+        "default": "fill"
+      },
+      "bg_lm_color": {
+        "default": "#006EDB"
+      },
+      "bg_dm_color": {
+        "default": "#0A84FF"
+      },
+      "corner_radius": {
+        "default": 4
+      }
+    },
+    "leftIcon": {
+      "type": "box",
+      "image_url": {
+        "default": null,
+        "0": "https://raw.githubusercontent.com/devapro/test-json/main/images/gift_1.svg",
+        "2": "https://raw.githubusercontent.com/devapro/test-json/main/images/gift_1.svg"
+      },
+      "scale_type": {
+        "default": "fit"
+      },
+      "visible": {
+        "default": false,
+        "0": true,
+        "2": true
+      }
+    },
+    "mainText": {
+      "type": "text",
+      "define": {
+        "default": "News on Investing got better with new premium news sources",
+        "4": "News on Investing got better with new premium news sources. News on Investing got better with new premium news sources"
+      },
+      "style": {
+        "default": "b_15_reg"
+      }
+    },
+    "closeIcon": {
+      "type": "box",
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/images/close.svg"
+      },
+      "scale_type": {
+        "default": "fit"
+      }
+    },
+    "learMoreBtn": {
+      "type": "text",
+      "define": {
+        "default": "Learn More"
+      },
+      "style": {
+        "default": "btn_14_reg"
+      },
+      "transform": {
+        "default": "uppercase"
+      },
+      "visible": {
+        "default": false,
+        "0": true,
+        "1": true
+      }
+    },
+    "gotItBtn": {
+      "type": "text",
+      "define": {
+        "default": "Got It"
+      },
+      "style": {
+        "default": "btn_14_reg"
+      },
+      "transform": {
+        "default": "uppercase"
+      },
+      "visible": {
+        "default": false,
+        "0": true,
+        "1": true
+      }
+    },
+    "gotItBtnContainer": {
+      "type": "box",
+      "border_size": {
+        "default": 0,
+        "1": 1
+      },
+      "border_dm_color": {
+        "default": "#ffffff"
+      },
+      "border_lm_color": {
+        "default": "#ffffff"
+      },
+      "corner_radius": {
+        "default": 2
+      }
+    }
+  },
+  "menuProBanner": {
+    "mainBg": {
+      "type": "box",
+      "border_size": {
+        "default": 0
+      },
+      "bg_dm_color": {
+        "default": "#1F272D"
+      },
+      "bg_lm_color": {
+        "default": "#1F272D"
+      },
+      "corner_radius": {
+        "default": 4
+      },
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/pro/bg.png"
+      }
+    },
+    "leftIcon": {
+      "type": "box",
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/pro/pro_icon.png"
+      },
+      "visible": {
+        "default": true,
+        "3": false
+      }
+    },
+    "rightButton": {
+      "type": "box",
+      "border_size": {
+        "default": 0
+      },
+      "visible": {
+        "default": true,
+        "3": false
+      },
+      "corner_radius": {
+        "default": 4
+      },
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/pro/btn.svg"
+      }
+    },
+    "buttonText": {
+      "type": "text",
+      "style": {
+        "default": "b_14_med",
+        "5": "btn_12_med"
+      },
+      "max_lines": {
+        "default": 2,
+        "5": 1
+      },
+      "define": {
+        "default": "Get 50% Off",
+        "1": "Claim",
+        "2": "Claim",
+        "4": "Отримайте\n\rзнижку 50%",
+        "5": "Прретендуваттии"
+      }
+    },
+    "title": {
+      "type": "text",
+      "define": {
+        "default": "Summer Sale",
+        "3": "InvestingPro Sale",
+        "4": "Літня Знижка\n\rЗнижка",
+        "5": "Summer Sale"
+      }
+    },
+    "subTitle": {
+      "type": "text",
+      "define": {
+        "default": "Get 50% Off"
+      },
+      "visible": {
+        "default": false,
+        "1": true,
+        "2": true,
+        "5": true
+      }
+    },
+    "topIcon": {
+      "type": "box",
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/pro/pro_logo.svg"
+      },
+      "visible": {
+        "default": false,
+        "2": true,
+        "5": true
+      }
+    },
+    "leftButton": {
+      "type": "box",
+      "corner_radius": {
+        "default": 4
+      },
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/pro/btn.svg"
+      },
+      "visible": {
+        "default": false,
+        "3": true
+      }
+    },
+    "rightIcon": {
+      "type": "box",
+      "image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/pro/pro_icon.png"
+      },
+      "visible": {
+        "default": false,
+        "3": true
+      }
+    }
+  },
+  "dynamicLP": {
+    "headerBlock1": {
+      "type": "box",
+      "lm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/pro_logo.svg"
+      },
+      "dm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/pro_logo.svg"
+      },
+      "image_width": {
+        "default": 92
+      }
+    },
+    "titleBlock1": {
+      "type": "text",
+      "define": {
+        "default": "InvestingPro"
+      }
+    },
+    "subtitleBlock1": {
+      "type": "text",
+      "define": {
+        "default": "InvestingPro"
+      }
+    }
+  }
+}
