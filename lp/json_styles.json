@@ -244,6 +244,15 @@
     }
   },
   "dynamicLP": {
+    "lpBlock1": {
+        "type": "box",
+        "bg_dm_color": {
+            "default": "#1F272D"
+        },
+        "bg_lm_color": {
+            "default": "#1F272D"
+        }
+    },
     "headerBlock1": {
       "type": "box",
       "lm_image_url": {
@@ -257,15 +266,18 @@
       }
     },
     "titleBlock1": {
+        "type": "box"
+    },
+    "titleBlock1.title": {
       "type": "text",
       "define": {
-        "default": "InvestingPro"
+        "default": "InvestingProTitle"
       }
     },
-    "subtitleBlock1": {
+    "titleBlock1.subtitle": {
       "type": "text",
       "define": {
-        "default": "InvestingPro"
+        "default": "InvestingProSubtitle"
       }
     }
   }
