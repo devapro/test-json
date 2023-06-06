@@ -245,39 +245,160 @@
   },
   "dynamicLP": {
     "lpBlock1": {
-        "type": "box",
-        "bg_dm_color": {
-            "default": "#1F272D"
-        },
-        "bg_lm_color": {
-            "default": "#1F272D"
-        }
+      "type": "box",
+      "bg_dm_color": {
+        "default": "#1F272D"
+      },
+      "bg_lm_color": {
+        "default": "#1F272D"
+      }
     },
     "headerBlock1": {
       "type": "box",
       "lm_image_url": {
-        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/pro_logo.svg"
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/pro_logo.svg",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/two_lines_logo.png"
       },
       "dm_image_url": {
-        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/pro_logo.svg"
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/pro_logo.svg",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/two_lines_logo.png"
       },
       "image_width": {
-        "default": 92
+        "default": 92,
+        "1": 138,
+        "2": 138
       }
     },
     "titleBlock1": {
-        "type": "box"
+      "type": "box"
     },
     "titleBlock1.title": {
       "type": "text",
       "define": {
-        "default": "InvestingProTitle"
+        "default": "Title block default",
+        "1": "Title block 1",
+        "2": "Title block 1"
       }
     },
     "titleBlock1.subtitle": {
       "type": "text",
       "define": {
-        "default": "InvestingProSubtitle"
+        "default": "Subtitle text default",
+        "1": "Subtitle text 1"
+      }
+    },
+    "imageAndTextBlock1": {
+      "type": "box",
+      "bg_lm_color": {
+        "default": "#161D22"
+      },
+      "bg_dm_color": {
+        "default": "#161D22"
+      }
+    },
+    "imageAndTextBlock1.image": {
+      "type": "box",
+      "lm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/pro_and_ads_free.png",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/pro_and_ads_free.png"
+      },
+      "dm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/pro_and_ads_free.png",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/pro_and_ads_free.png"
+      },
+      "image_width": {
+        "default": 132,
+        "1": 132
+      }
+    },
+    "imageAndTextBlock1.text": {
+      "type": "text",
+      "define": {
+        "default": "First image and text block default",
+        "1": "First image and text block default"
+      }
+    },
+    "imageAndTextBlock1.title": {
+      "type": "text",
+      "visible": {
+        "default": false
+      }
+    },
+    "imageAndTextBlock2": {
+      "type": "box",
+      "bg_lm_color": {
+        "default": "#161D22"
+      },
+      "bg_dm_color": {
+        "default": "#161D22"
+      }
+    },
+    "imageAndTextBlock2.image": {
+      "type": "box",
+      "lm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/LM_Card_FV.png",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/LM_Card_FV.png"
+      },
+      "dm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/DM_Card_FV.png",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/DM_Card_FV.png"
+      }
+    },
+    "imageAndTextBlock2.title": {
+      "type": "text",
+      "define": {
+        "default": "Image and text title default",
+        "1": "Image and text title 1"
+      }
+    },
+    "imageAndTextBlock2.text": {
+      "type": "text",
+      "visible": {
+        "default": false
+      }
+    },
+    "imageAndTextBlock3": {
+      "type": "box",
+      "bg_lm_color": {
+        "default": "#161D22"
+      },
+      "bg_dm_color": {
+        "default": "#161D22"
+      }
+    },
+    "imageAndTextBlock3.image": {
+      "type": "box",
+      "lm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/LM_SI_Card_1.png",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/LM_SI_Card_1.png"
+      },
+      "dm_image_url": {
+        "default": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/DM_SI_Card_1.png",
+        "1": "https://raw.githubusercontent.com/devapro/test-json/main/lp/img/DM_SI_Card_1.png"
+      }
+    },
+    "imageAndTextBlock3.title": {
+      "type": "text",
+      "define": {
+        "default": "Hot Upgrades & Downgrades"
+      }
+    },
+    "imageAndTextBlock3.text": {
+      "type": "text",
+      "define": {
+        "default": "Become a pro-analyst insider with instant \nupdates when analyst ratings change"
+      },
+      "lm_color": {
+        "default": "#BCC0C2",
+        "1": "#BCC0C2"
+      },
+      "dm_color": {
+        "default": "#BCC0C2",
+        "1": "#BCC0C2"
+      },
+      "style": {
+        "default": "btn_14_reg",
+        "1": "btn_14_reg"
       }
     }
   }

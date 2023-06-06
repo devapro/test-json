@@ -9,13 +9,47 @@
         "type": "title_block",
         "id": "dynamicLP.titleBlock1",
         "id_title": "dynamicLP.titleBlock1.title",
-        "id_subtitle": "dynamicLP.titleBlock1.subtitle"
+        "id_subtitle": "dynamicLP.titleBlock1.subtitle",
+        "id_icon": "dynamicLP.titleBlock1.icon"
       },
       {
-        "type": "title_block",
-        "id": "dynamicLP.titleBlock2",
-        "id_title": "dynamicLP.titleBlock2",
-        "id_subtitle": "dynamicLP.subtitleBlock2"
+        "type": "image_and_text_block",
+        "id": "dynamicLP.imageAndTextBlock1",
+        "id_image": "dynamicLP.imageAndTextBlock1.image",
+        "id_bottom_text": "dynamicLP.imageAndTextBlock1.text",
+        "id_title": "dynamicLP.imageAndTextBlock1.title"
+      },
+
+
+      {
+        "type": "image_and_text_block",
+        "id": "dynamicLP.imageAndTextBlock2",
+        "id_image": "dynamicLP.imageAndTextBlock2.image",
+        "id_bottom_text": "dynamicLP.imageAndTextBlock2.text",
+        "id_title": "dynamicLP.imageAndTextBlock2.title"
+      },
+      {
+        "type": "image_and_text_block",
+        "id": "dynamicLP.imageAndTextBlock2",
+        "id_image": "dynamicLP.imageAndTextBlock2.image",
+        "id_bottom_text": "dynamicLP.imageAndTextBlock2.text",
+        "id_title": "dynamicLP.imageAndTextBlock2.title"
+      },
+      {
+        "type": "image_and_text_block",
+        "id": "dynamicLP.imageAndTextBlock2",
+        "id_image": "dynamicLP.imageAndTextBlock2.image",
+        "id_bottom_text": "dynamicLP.imageAndTextBlock2.text",
+        "id_title": "dynamicLP.imageAndTextBlock2.title"
+      },
+
+
+      {
+        "type": "image_and_text_block",
+        "id": "dynamicLP.imageAndTextBlock3",
+        "id_image": "dynamicLP.imageAndTextBlock3.image",
+        "id_bottom_text": "dynamicLP.imageAndTextBlock3.text",
+        "id_title": "dynamicLP.imageAndTextBlock3.title"
       },
       {
         "type": "slider_block",
@@ -38,6 +72,64 @@
             "title": "...."
           }
         ]
+      },
+      {
+        "type": "timer_block",
+        "id": "dynamicLP.timerBlock1",
+        "first_line_id": "dynamicLP.timerBlock1.firstLineId",
+        "second_line_id": "dynamicLP.timerBlock1.secondLineId",
+        "max_time": 20
+      },
+      {
+        "type": "questions_block",
+        "id": "dynamicLP.questionsBlock1",
+        "id_title": "dynamicLP.questionsBlock1.title",
+        "id_section_title": "dynamicLP.questionsBlock1.sectionTitle",
+        "id_section_text": "dynamicLP.questionsBlock1.sectionText",
+        "sections": [
+          {
+            "title": "Question 1",
+            "text": "Answer 1"
+          },
+          {
+            "title": "Question 1",
+            "text": "Answer 1"
+          },
+          {
+            "title": "Question 1",
+            "text": "Answer 1"
+          },
+          {
+            "title": "Question 1",
+            "text": "Answer 1"
+          }
+        ]
+      },
+      {
+        "type": "features_block",
+        "id": "dynamicLP.featuresBlock1",
+        "id_title": "dynamicLP.featuresBlock1.title",
+        "id_section_title": "dynamicLP.featuresBlock1.sectionTitle",
+        "id_item": "dynamicLP.featuresBlock1.items",
+        "sections": [
+          [
+            {
+              "title": "String",
+              "items": [
+                "item 1",
+                "item 2"
+              ]
+            }
+          ],
+          [
+            {
+              "title": "String"
+            },
+            {
+              "title": "String"
+            }
+          ]
+        ]
       }
     ],
     "default": [
@@ -49,13 +141,15 @@
         "type": "title_block",
         "id": "dynamicLP.titleBlock1",
         "id_title": "dynamicLP.titleBlock1.title",
-        "id_subtitle": "dynamicLP.titleBlock1.subtitle"
+        "id_subtitle": "dynamicLP.titleBlock1.subtitle",
+        "id_icon": "dynamicLP.titleBlock1.icon"
       },
       {
         "type": "title_block",
         "id": "dynamicLP.titleBlock2",
-        "id_title": "dynamicLP.titleBlock2",
-        "id_subtitle": "dynamicLP.subtitleBlock2"
+        "id_title": "dynamicLP.titleBlock2.title",
+        "id_subtitle": "dynamicLP.titleBlock2.subtitle",
+        "id_icon": "dynamicLP.titleBlock2.icon"
       },
       {
         "type": "slider_block",
