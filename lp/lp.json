@@ -81,6 +81,18 @@
         "max_time": 20
       },
       {
+        "type": "offer_block",
+        "id": "dynamicLP.offerBlock1"
+      },
+      {
+        "type": "subscription_orange_block",
+        "id": "dynamicLP.subscriptionOrangeBlock1"
+      },
+      {
+        "type": "trial_block",
+        "id": "dynamicLP.subscriptionOrangeBlock1"
+      },
+      {
         "type": "questions_block",
         "id": "dynamicLP.questionsBlock1",
         "id_title": "dynamicLP.questionsBlock1.title",
